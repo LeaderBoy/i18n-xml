@@ -1,0 +1,70 @@
+<resources tools:locale="en" xmlns:tools="http://schemas.android.com/tools">
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!-- discount -->
+    <string name="app_homeurl">Please use the "ABCDEFG" to get a discount.</string>
+    <!--APP Name-->
+    <string name="app_name">I18n Studio</string>
+    <string name="countdown">%1$s until holiday</string>
+    <!--I don't know.-->
+    <string name="do_not_know">I don\'t know.</string>
+    <string-array name="feature_content">
+        <!--Support translation content in <string></string> -->
+        <item>Translate content from string</item>
+        <!--Support translation content from <string-array></string-array>-->
+        <item>Translate content from string-array</item>
+        <!--Support translation of content in plurals-->
+        <item>Support for translating content in plurals</item>
+    </string-array>
+    <string-array name="feature_xml">
+        <!--Support one-click translation-->
+        <item>Support one-click translation, complete localization in an instant</item>
+        <!--Translate content from string-array-->
+        <item>Translate content from string-array</item>
+        <!--Support adding key-value pairs-->
+        <item>Add key-value pairs</item>
+        <!--Supports modifying key-value pairs-->
+        <item>Modify key-value pairs</item>
+        <!--Support code comments-->
+        <item>code comment</item>
+        <!--Supports translation using ChatGPT-->
+        <item>Support ChatGPT for translation</item>
+        <!--Supports translating a single value-->
+        <item>Support for translating a single value</item>
+        <!--Supports translating value into all languages-->
+        <item>Support translating value to all languages</item>
+    </string-array>
+    <string name="key1">values</string>
+    <!--Contains translations of attribute-->
+    <string tools:ignore="MissingTranslation" name="new_value">new value</string>
+    <plurals tools:ignore="MissingQuantity" name="numberOfFlowerAvailable">
+        <!-- Supports plural -->
+        <item quantity="one">%d flower found.</item>
+        <!--few flowers-->
+        <item quantity="other">%d flowers found.</item>
+    </plurals>
+    <plurals name="numberOfSongsAvailable" tools:ignore="MissingQuantity">
+        <!-- Supports plural -->
+        <item quantity="one">%d song found.</item>
+        <!--few songs-->
+        <item quantity="other">%d songs found.</item>
+    </plurals>
+    <!--Game Group is a keyword, please do not translate it-->
+    <string name="prod_name">Learn more at Game Group</string>
+    <!--Welcome-->
+    <string name="welcome_android">Welcome to Android!</string>
+    <!--Test: Contains translation symbols-->
+    <string name="welcome_headline">How to write code\?</string>
+    <!--Test: String interpolation-->
+    <string name="welcome_messages">Hello, %1$s! You have %2$d new messages.</string>
+    <!--Annotations and HTML tags are not supported-->
+    <string name="welcome_title">Best practices for text on Android</string>
+</resources>
